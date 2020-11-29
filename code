@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0,width=device-width, user-scalable=no"/>
+    <title>证书防伪查询</title>
+    <style>
+        /* CSS Document */
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: "微软雅黑";
+        }
+
+        ul, li, p {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .he {
+            width: 100%;
+            /*background: #2D2D2D;*/
+            display: block;
+            /*height: 4em;*/
+            position: relative;
+            z-index: 1;
+        }
+
+        .he > .span {
+            position: relative;
+            text-align: center;
+            top: -1.3em;
+            color: white;
+            font-family: "微软雅黑";
+            font-size: 1.1em;
+        }
+
+        .he > a > img {
+            width: 1em;
+            height: 1.5em;
+            position: relative;
+            left: 0.8em;
+            top: 1.3em;
+        }
+
+        .bt {
+            width: 95%;
+            margin: 0 auto;
+            position: relative;
+            /*top: 1.5em;*/
+        }
+
+        .bt > span > div {
+            width: 0.5em;
+            height: 2em;
+            background: #313131;
+            float: left;
+            border-radius: 1em;
+        }
+
+        .bt > .span1 {
+            position: relative;
+            text-indent: 0.5em;
+            top: 0.3em;
+            font-family: "微软雅黑";
+            color: #5d5d5d;
+        }
+
+        .tab {
+            width: 95%;
+            margin: 1.5em auto;
+            position: relative;
+            /*top: 2.5em;*/
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .table > tr {
+        }
+
+        .ta {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+            font-family: "微软雅黑";
+            height: 3.2em;
+            font-size: 1.1em;
+        }
+
+        .ta > .td1 {
+            padding: 0.8em;
+            background: #2E45A0;
+            position: relative;
+            width: 30%;
+        }
+
+        .ta > .td2 {
+            padding: 0.8em;
+            background: #f4f4f4;
+            position: relative;
+            width: 70%;
+            color: #474747
+        }
+
+        .over > span {
+            width: 0.5em;
+            height: 0.5em;
+            background: #FC0;
+            border-radius: 50%;
+            position: absolute;
+            left: 1em;
+        }
+
+        .over > p {
+            font-family: "微软雅黑";
+            text-indent: 1.8em;
+            position: relative;
+            top: -0.4em;
+            width: 100%;
+        }
+
+        .footer {
+            width: 100%;
+            /*left: 0;*/
+            bottom: 10px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+    </style>
+</head>
+<body>
+<!-- 标题-->
+<div class="bt">
+    <span><div></div></span>
+    <span class="span1"><h4 style="color:#000;">证书查询结果</h4>查询结果如下：</span>
+</div>
+
+<!--内容-->
+<div class="tab1 tab">
+    <table width="100%" cellpadding="0" cellspacing="2" class="table">
+        <tr class="ta">
+            <td class="td1">证书编号</td>
+            <td class="td2">
+                <div id="zsBh">
+		01063509
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">单位名称</td>
+            <td class="td2">
+                <div id="sjdw">
+		北京同创天成工程勘测有限公司
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">器具名称</td>
+            <td class="td2">
+                <div id="qj">
+		数字水准仪
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">型号规格</td>
+            <td class="td2">
+                <div id="xhgg">
+		DiNi03
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">出厂编号</td>
+            <td class="td2">
+                <div id="ccbh">
+		730421
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">制造厂商</td>
+            <td class="td2">
+                <div id="zzcs">
+		Trimble
+                </div>
+            </td>
+        </tr>
+        <tr class="ta">
+            <td class="td1">校检日期</td>
+            <td class="td2">
+                <div id="jdrq">
+		2020-11-05
+                </div>
+            </td>
+        </tr>
+        <tr class="ta col">
+            <td class="td1">有效期</td>
+            <td class="td2">
+                <div id="yxq">
+		2021-11-04
+                </div>
+            </td>
+        </tr>
+
+        <tr class="ta">
+            <td class="td1">校检单位</td>
+            <td class="td2">
+                <div id="customerName">
+		南京市计量监督检测院
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="footer">
+    技术支持：南京明德软件有限公司
+</div>
+</body>
+</script>
+</html>
